@@ -10,7 +10,7 @@ function Toc({ headings }) {
         {headings.map((heading, index) => (
           <li
             key={heading.uid}
-            className="mt-4 text-lg text-gray-700 dark:text-gray-400"
+            className="mt-4 text-lg text-gray-700 dark:text-gray-400 cursor-pointer" // Added cursor-pointer
             style={{
               paddingLeft: heading.level === 3 ? "1rem" : "",
               color: heading.id === active ? "#6366f1" : "",
@@ -19,7 +19,9 @@ function Toc({ headings }) {
               setActive(heading.id);
             }}
           >
-            <Link href={`#${heading.id}`}>{heading.text}</Link>
+            <Link href={`#${heading.id}`} className="block"> {/* Added className="block" to Link */}
+              {heading.text}
+            </Link>
           </li>
         ))}
       </ul>
