@@ -20,19 +20,19 @@ export default function Home({ blogs, topics }) {
   return (
     <>
       <Head>
-        <title>Bits-0f-C0de 🚀</title>
-        <meta name="title" content="Bits-0f-C0de 🚀" />
+        <title>Este es el Blog de Wuaicot 🚀</title>
+        <meta name="title" content="Blog-Wuaicot 🚀" />
         <meta
           name="description"
-          content="Tech blogs and articles on various topics related to Software Development"
+          content="Blogs y artículos técnicos sobre diversos temas relacionados con el desarrollo de App's."
         />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://blogs.soumya-jit.tech/" />
-        <meta property="og:title" content="Bits-0f-C0de 🚀" />
+        <meta property="og:title" content="Blog-Wuaicot 🚀" />
         <meta
           property="og:description"
-          content="Tech blogs and articles on various topics related to Software Development"
+          content="Blogs y artículos técnicos sobre diversos temas relacionados con el desarrollo de App's."
         />
         <meta
           property="og:image"
@@ -41,10 +41,10 @@ export default function Home({ blogs, topics }) {
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://blogs.soumya-jit.tech/" />
-        <meta property="twitter:title" content="Bits-0f-C0de 🚀" />
+        <meta property="twitter:title" content="Blog-Wuaicot 🚀" />
         <meta
           property="twitter:description"
-          content="Tech blogs and articles on various topics related to Software Development"
+          content="Blogs y artículos técnicos sobre diversos temas relacionados con el desarrollo de App's."
         />
         <meta
           property="twitter:image"
