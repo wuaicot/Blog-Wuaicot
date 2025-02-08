@@ -3,11 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
-  @variants dark {
-    .bg-dark {
-      background: #070c17db;
-      backdrop-filter: blur(3px);
-    }
+  .dark .bg-dark {
+    background: #070c17db;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
   }
 }
 
@@ -52,3 +51,4 @@ button:focus {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+

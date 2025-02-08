@@ -19,7 +19,7 @@ function Footer() {
               @wuaicotnft22
             </a>
           </p>
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+          <span className="bgfooter  inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start" >
             <a
               className="text-gray-50"
               href="https://twitter.com/naiycol"
